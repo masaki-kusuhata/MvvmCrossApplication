@@ -11,7 +11,7 @@ namespace MvvmCrossApplication.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            RegisterNavigationServiceAppStart<ViewModels.FirstViewModel>();
         }
     }
 }
